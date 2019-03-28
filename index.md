@@ -177,6 +177,7 @@ If you find some of the reading confusing and want a more gentle introduction, t
 * [Reading Quiz](https://goo.gl/forms/POkEId1xA5c9FjoI3) due before class. 
 * Intro [[pdf](assets/lectures/lec03/other_networks.pdf), [pptx](assets/lectures/lec03/other_networks.pptx)]
 * Autoencoders [[pdf](assets/lectures/lec03/autoencoders.pdf), [pptx](assets/lectures/lec03/autoencoders.pptx)]
+* Graph Neural Networks [[pdf](assets/lectures/lec03/gnn.pdf), [pptx](assets/lectures/lec03/gnn.pptx)]
 
 
 <div class="summary" markdown="1"> </div>
@@ -275,6 +276,8 @@ If you find some of the reading confusing and want a more gentle introduction, t
 
 ### Links
 * [Reading Quiz](https://goo.gl/forms/awQKZjxtb1PV0g272) due before class. 
+* RLlib [[pdf](assets/lectures/rllib.pdf)]
+* A3C [[pdf](assets/lectures/A3C.pdf)]
 
 <div class="summary" markdown="1"> </div>
 <div class="reading">
@@ -303,6 +306,7 @@ If you find some of the reading confusing and want a more gentle introduction, t
 * [Reading Quiz](https://goo.gl/forms/uKUtXqhpv2Jctqgq1
 ) due before class. 
 * Learned Indexes [[pdf](assets/lectures/lec05/learnedIndexes.pdf), [pptx](assets/lectures/lec05/learnedIndexes.pptx)]
+* Learning to Optimize Join Queries [[pdf](assets/lectures/lec05/dq.pdf)]
 <div class="summary" markdown="1"> </div>
 <div class="reading">
 <div class="required_reading" markdown="1">
@@ -332,6 +336,7 @@ If you find some of the reading confusing and want a more gentle introduction, t
 
 ### Links
 * [Reading Quiz](https://goo.gl/forms/aalfGnuX1ZFdYhlX2) due before class. 
+* Learned Cardinalities [[pdf](assets/lectures/lec05/learned-cardinalities.pdf)]
 
 
 
@@ -364,19 +369,32 @@ If you find some of the reading confusing and want a more gentle introduction, t
 {% include syllabus_entry %}
 ## Hyperparameter search
 
+
+
 ### Links
-* [Reading Quiz](https://goo.gl/forms/z7CcNYyXD9rL67pI2) due before class.
+* [Reading Quiz](https://goo.gl/forms/z7CcNYyXD9rL67pI2) due before class.  There was a mix-up in updating the reading and the wrong paper was swapped.  You may either read the Hyperband paper (preferred) or the Vizer paper (see optional reading) for the second reading. 
+* A Generalized Framework for Population Based Training [[pdf](assets/lectures/lec09/generalized-PBT.pdf)]
+
 
 <div class="summary" markdown="1"> </div>
 <div class="reading">
 <div class="required_reading" markdown="1">
 
 * [A Generalized Framework for Population Based Training](https://arxiv.org/pdf/1902.01894.pdf)
+* [Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization](https://arxiv.org/pdf/1603.06560.pdf)
+
+</div>
+
+
+<div class="optional_reading" markdown="1">
+
+ 
 * [Google Vizier: A Service for Black-Box Optimization](https://research.google.com/pubs/archive/46180.pdf)
 
 </div>
-</div>
 
+
+</div>
 
 
 
@@ -385,14 +403,21 @@ If you find some of the reading confusing and want a more gentle introduction, t
 
 
 {% include syllabus_entry %}
+
 ## Auto ML & Neural Architecture Search (1/2)
+
+### Links
+* [Reading Quiz](https://goo.gl/forms/Twa0EQ9rJKIZ0eaj1) due before class.
+* AutoML Overview [[pdf](assets/lectures/lec10/automl.pdf), [pptx](assets/lectures/lec10/automl.pptx)]
+* Designing Neural Networks with RL [[pdf](assets/lectures/lec10/neuralArchitecturesRL.pdf), [pptx](assets/lectures/lec10/neuralArchitecturesRL.pptx)]
+
 <div class="summary" markdown="1"> </div>
 <div class="reading">
 <div class="required_reading" markdown="1">
 
 * [Efficient and Robust Automated Machine Learning](https://ml.informatik.uni-freiburg.de/papers/15-NIPS-auto-sklearn-preprint.pdf)
 * [Designing Neural Network Architectures using Reinforcement Learning](https://arxiv.org/abs/1611.02167)
-
+`
 </div>
 </div>
 
@@ -404,6 +429,11 @@ If you find some of the reading confusing and want a more gentle introduction, t
 
 {% include syllabus_entry %}
 ## Auto ML & Neural Architecture Search (2/2)
+
+### Links
+* [Reading Quiz](https://goo.gl/forms/xOVySnneBUDiNjAC3) due before class.
+* Semantic Segmentation AutoML slides [[pdf](assets/lectures/2019.02.27_EfficientMultiscalePrediction.pdf)]
+
 <div class="summary" markdown="1"> </div>
 <div class="reading">
 <div class="required_reading" markdown="1">
@@ -420,6 +450,12 @@ If you find some of the reading confusing and want a more gentle introduction, t
 
 {% include syllabus_entry %}
 ## Autonomous Vehicles
+
+### Links
+* [Reading Quiz](https://goo.gl/forms/Ai4L7UFj3YD40YJJ2) due before class.
+* Autonomous Vehicles Overview [[pdf](assets/lectures/lec12/autonomous_vehicles.pptx), [pptx](assets/lectures/lec12/autonomous_vehicles.pptx)]
+* Presentation: The Architectural Implications of Autonomous Driving[[pdf](assets/lectures/lec12/ai_sys_ad.pdf)]
+
 
 <div class="summary" markdown="1"> </div>
 <div class="reading">
@@ -443,12 +479,23 @@ If you find some of the reading confusing and want a more gentle introduction, t
 
 {% include syllabus_entry %}
 ## Deep Learning Compilers
+
+### Links
+* [Reading Quiz](https://goo.gl/forms/Bf6Qobcj4QkizOXu2) due before class.
+* DL Compiler Overview [[pdf](assets/lectures/lec13/lec13.pdf), [pptx](assets/lectures/lec13/lec13.pptx)]
+* [Presentation PDF](assets/lectures/lec12/dl-compilers.pdf)
+
 <div class="summary" markdown="1"> </div>
 <div class="reading">
 <div class="required_reading" markdown="1">
 
 * [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://arxiv.org/abs/1802.04799)
 * [TensorComprehensions](https://arxiv.org/abs/1802.04730)
+
+</div>
+<div class="optional_reading" markdown="1">
+
+* [Learning to Optimize Tensor Programs](https://arxiv.org/abs/1805.08166): The TVM story is two fold. There's a System for ML story (above paper) and this paper is their the ML for System story.
 
 </div>
 </div>
@@ -467,11 +514,16 @@ If you find some of the reading confusing and want a more gentle introduction, t
 
 {% include syllabus_entry %}
 ## Application: Program synthesis
+
+### Links
+* [Reading Quiz](https://goo.gl/forms/3NvIpsgyplAgnUE72) due before class.
+
 <div class="summary" markdown="1"> </div>
 <div class="reading">
 <div class="required_reading" markdown="1">
 
 * [Learning to Represent Programs with Graphs](https://openreview.net/forum?id=BJOFETxR-)
+  [[pdf](assets/lectures/lec15/LearningProgramsWithGraphs.pdf)], [[key](https://gist.github.com/mwhittaker/7ce417d8af24b1038d9322c69f382ed8/raw/ddaa19812eb82fc244dd2016f7ba8243e0bdc9ec/LearningPrograms.key)]
 * [DeepCoder: Learning to write programs](https://openreview.net/pdf?id=ByldLrqlx)
 
 </div>
@@ -481,6 +533,12 @@ If you find some of the reading confusing and want a more gentle introduction, t
 
 {% include syllabus_entry %}
 ## Distributed Deep Learning  (Part 1)
+
+### Links
+* [Reading Quiz](https://goo.gl/forms/VO4snX4spwwmlYmA2) due before class.
+* Overview [[pdf](assets/lectures/lec16/distributed_deep_learning_part1.pdf), [pptx](assets/lectures/lec16/distributed_deep_learning_part1.pptx)]
+
+
 <div class="summary" markdown="1"> </div>
 <div class="reading">
 <div class="required_reading" markdown="1">
@@ -494,16 +552,18 @@ If you find some of the reading confusing and want a more gentle introduction, t
 
 * [Exascale Deep Learning for Climate Analytics](https://arxiv.org/abs/1810.01993)
 * [ImageNet/ResNet-50 Training in 224 Seconds](https://arxiv.org/abs/1811.05233)
+* [Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation](https://arxiv.org/abs/1609.08144)
 
 </div>
 </div>
-
-
-
 
 
 {% include syllabus_entry %}
 ## Distributed Deep Learning (Part 2)
+
+### Links
+* [Reading Quiz](https://goo.gl/forms/sXv2koIa4wbv25903) due before class.
+
 <div class="summary" markdown="1"> </div>
 <div class="reading">
 <div class="required_reading" markdown="1">
